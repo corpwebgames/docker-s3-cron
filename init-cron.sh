@@ -8,3 +8,4 @@ chmod 0644 /etc/cron.d/cron-jobs
 touch /var/log/cron.log
 
 cron && tail -f /var/log/cron.log
+

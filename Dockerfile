@@ -8,3 +8,4 @@ RUN chmod +x /opt/init-cron.sh
 WORKDIR /opt
 
 CMD ["./init-cron.sh"]
+
